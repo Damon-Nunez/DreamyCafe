@@ -1,7 +1,8 @@
-import React from 'react'
 
-export const Books = () => {
+ const Books = () => {
   return (
     <div>Books</div>
   )
 }
+
+export default Books
