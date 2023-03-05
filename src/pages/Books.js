@@ -16,9 +16,28 @@ import Solitude from '../images/Solitude.jpg'
 import Beloved from '../images/Beloved.jpg'
 import HouseMango from '../images/HouseMango.jpg'
 import HouseOfSpirits from '../images/HouseOfSpirits.jpg'
+import AOT from '../images/AOT.jpg'
+import BlueExorcist from '../images/BlueExorcist.jpg'
+import DemonSlayer from '../images/DemonSlayer.jpg'
+import OPM from '../images/OPM.jpg'
+import TPM from '../images/TPM.webp'
+
+import Slime from '../images/Slime.jpg'
+import ShieldHero from '../images/ShieldHero.jpg'
+import SAO from '../images/SAO.jpg'
+import ReZero from '../images/ReZero.jpg'
+import NGNL from '../images/NGNL.jpg'
+
+import YOO from '../images/YOO.png'
+import unOrdinary from '../images/unOrdinary.jpg'
+import TOG from '../images/TOG.jpg'
+import Noblesse from '../images/Noblesse.jpg'
+import GOH from '../images/GOH.jpg'
+
+import Footer from '../components/Footer.js'
  const Books = () => {
   return (
-    <div className="backgroundLegal">
+    <div className="backgroundLegalAGAIN">
       <section className="wrapper">
         <Navbar/>
       <div id="stars"></div>
@@ -134,8 +153,115 @@ import HouseOfSpirits from '../images/HouseOfSpirits.jpg'
           </div>
           </Col>
         </Row>
+        <h1 className="headerTwo"> We have non-space related books as well!! </h1>
+        <Row>
+          <Col sm={12} md={12} lg={4}>
+            <h1 className="carouselTitle"> Manga! </h1>
+            <div className="carouselDesign">
+            <Carousel autoplay
+                dots={true}
+                dotPosition='bottom'
+                effect="fade"
+                pauseOnHover={true}
+                draggable
+              >
+                <div>
+                  <img className="carouselImage" src={AOT}/>
+                  <h1 className="carouselCaption">A.O.T</h1>
+                </div>
+                <div>
+                  <img className="carouselImage" src={BlueExorcist}/>
+                  <h1 className="carouselCaption">Blue Exorcist</h1>
+                </div>
+                <div>
+                  <img className="carouselImage" src={DemonSlayer}/>
+                  <h1 className="carouselCaption">DemonSlayer</h1>
+                </div>
+                <div>
+                  <img className="carouselImage" src={OPM}/>
+                  <h1 className="carouselCaption">OPM</h1>
+                </div>
+                <div>
+                  <img className="carouselImage" src={TPM}/>
+                  <h1 className="carouselCaption">T.P.M</h1>
+                </div>
+                </Carousel>
+            </div>
+          </Col>
+
+          <Col sm={12} md={12} lg={4}>
+            <h1 className="carouselTitle">📕Light Novels</h1>
+            <div className="carouselDesign">
+            <Carousel autoplay
+                dots={true}
+                dotPosition='bottom'
+                effect="fade"
+                pauseOnHover={true}
+                draggable
+              >
+                <div>
+                  <img className="carouselImage" src={NGNL}/>
+                  <h1 className="carouselCaption">N.G.N.L</h1>
+                </div>
+                <div>
+                  <img className="carouselImage" src={ReZero}/>
+                  <h1 className="carouselCaption">ReZero</h1>
+                </div>
+                <div>
+                  <img className="carouselImage" src={SAO}/>
+                  <h1 className="carouselCaption">SAO</h1>
+                </div>
+                <div>
+                  <img className="carouselImage" src={ShieldHero}/>
+                  <h1 className="carouselCaption">ShieldHero</h1>
+                </div>
+                <div>
+                  <img className="carouselImage" src={Slime}/>
+                  <h1 className="carouselCaption">T.T.I.G.R.A.A.S</h1>
+                </div>
+                </Carousel>
+            </div>
+          </Col>
+
+          <Col sm={12} md={12} lg={4}>
+            <h1 className="carouselTitle"> WebComics </h1>
+            <div className="carouselDesign">
+            <Carousel autoplay
+                dots={true}
+                dotPosition='bottom'
+                effect="fade"
+                pauseOnHover={true}
+                draggable
+              >
+                <div>
+                  <img className="carouselImage" src={YOO}/>
+                  <h1 className="carouselCaption">I Love YOO</h1>
+                </div>
+                <div>
+                  <img className="carouselImage" src={unOrdinary}/>
+                  <h1 className="carouselCaption">unOrdinary</h1>
+                </div>
+                <div>
+                  <img className="carouselImage" src={TOG}/>
+                  <h1 className="carouselCaption">T.O.G</h1>
+                </div>
+                <div>
+                  <img className="carouselImage" src={Noblesse}/>
+                  <h1 className="carouselCaption">Noblesse</h1>
+                </div>
+                <div>
+                  <img className="carouselImage" src={GOH}/>
+                  <h1 className="carouselCaption">G.O.H</h1>
+                </div>
+                </Carousel>
+            </div>
+          </Col>
+
+
+        </Row>
       </Container>
       <h1 className="headerTwo"> Interested? 🧭 Visit Us at 1387 YouveBeenDuped Street 🗺️ </h1>
+      <Footer/>
       </section>
     </div>
   )

@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Permanent+Marker:400");
 
 
-.backgroundLegal {
-    height:2000px;
+.backgroundLegalAGAIN {
+    height:auto;
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100% );
 }
 #stars {
