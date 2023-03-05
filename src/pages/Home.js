@@ -9,6 +9,8 @@ import slide_image_3 from '../images/Cinammon-Bun.jpg'
 import slide_image_4 from '../images/ChocolateChipCookies.jpg'
 import slide_image_5 from '../images/Croissant.jpg'
 import slide_image_6 from '../images/Danishes.jpg'
+import GalaxTea from '../images/ButterflyPeaFlowerTea.jpg'
+import MoonCakes from '../images/MoonCakes.jpg'
 import logo from '../images/logo.png'
 import Footer from "../components/Footer";
 
@@ -25,6 +27,38 @@ import Footer from "../components/Footer";
       <span> The Best Cafe To Relax In!</span>
       </div>
       <Container className="containerOne">
+        <Row>
+          <Col>
+          <h1 className="glow"> ⭐ Dreamy Cafe Exclusives ⭐ </h1>
+          </Col>
+        </Row>
+        <Row>
+          <Col sm={12} md={12} lg={6}>
+          <div>
+            <Card className="cardDesign">
+              <Card.Img className="cardImage" src={GalaxTea}/>
+              <Card.ImgOverlay>
+                <Card.Text>
+                  <h2 className="cardCaptionExclusive"> GalaxTea </h2>
+                </Card.Text>
+              </Card.ImgOverlay>
+            </Card>
+          </div>
+          </Col>
+          <Col sm={12} md={12} lg={6}>
+            <div>
+              <Card className="cardDesign">
+                <Card.Img className="cardImage" src={MoonCakes}/>
+                <Card.ImgOverlay>
+                  <Card.Text>
+                    <h2 className="cardCaptionExclusive"> Moon Cakes </h2>
+                  </Card.Text>
+                </Card.ImgOverlay>
+              </Card>
+            </div>
+          </Col>
+        </Row>
+
         <Row>
           <Col>
           <h1 className="glow"> ⭐ Popular Items on our Menu: ⭐</h1>
@@ -127,9 +161,10 @@ import Footer from "../components/Footer";
           <Col sm={12} md={12} lg={4}> 
           <img className="aboutUsLogo" src={logo}/>
           </Col>
-        </Row>
+        </Row> 
       </Container>
-		<Footer/>
+      <Footer/>
+     
     </section>
     </div>
   )
