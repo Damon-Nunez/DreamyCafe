@@ -58,7 +58,7 @@ import Footer from '../components/Footer.js'
       <h1 className="header"> 📗 Here are some popular genres and books!! 📕</h1>
       <Container className="secondContainer">
         <Row>
-          <Col sm={12} md={12} lg={4}>
+          <Col sm={12} md={12} lg={4} className = "mobileExclusive">
             <h1 className="carouselTitle"> 👾 Sci-Fi!!🧬 </h1>
           <div className="carouselDesign">
               <Carousel autoplay
@@ -88,7 +88,7 @@ import Footer from '../components/Footer.js'
           </div>
           </Col>
 
-          <Col sm={12} md={12} lg={4}>
+          <Col sm={12} md={12} lg={4} className='mobileExclusiveExtra'>
           <h1 className="carouselTitle"> 🌠 Fantasy! 🧙🏼‍♂️</h1>
           <div className="carouselDesign">
           <Carousel autoplay
@@ -122,7 +122,7 @@ import Footer from '../components/Footer.js'
           </div>
           </Col>
 
-          <Col sm={12} md={12} lg={4}>
+          <Col sm={12} md={12} lg={4} className='mobileExclusiveExtra' >
           <h1 className="carouselTitle">MagicRealism💥</h1>
           <div className="carouselDesign">
           <Carousel autoplay
@@ -155,7 +155,7 @@ import Footer from '../components/Footer.js'
         </Row>
         <h1 className="headerTwo"> We have non-space related books as well!! </h1>
         <Row>
-          <Col sm={12} md={12} lg={4}>
+          <Col sm={12} md={12} lg={4} className = 'mobileExclusive'>
             <h1 className="carouselTitle"> Manga! </h1>
             <div className="carouselDesign">
             <Carousel autoplay
@@ -189,7 +189,7 @@ import Footer from '../components/Footer.js'
             </div>
           </Col>
 
-          <Col sm={12} md={12} lg={4}>
+          <Col sm={12} md={12} lg={4}className='mobileExclusiveExtra'>
             <h1 className="carouselTitle">📕Light Novels</h1>
             <div className="carouselDesign">
             <Carousel autoplay
@@ -223,7 +223,7 @@ import Footer from '../components/Footer.js'
             </div>
           </Col>
 
-          <Col sm={12} md={12} lg={4}>
+          <Col sm={12} md={12} lg={4}className='mobileExclusive' >
             <h1 className="carouselTitle"> WebComics </h1>
             <div className="carouselDesign">
             <Carousel autoplay
