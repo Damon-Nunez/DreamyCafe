@@ -497,7 +497,7 @@
     padding-top: 4.5rem;
     padding-right:2rem;
 }
-@media screen and (max-width:750px) {
+@media screen and (max-width:1150px) {
     .cardImage {
         padding:15px;
     }
