@@ -45,6 +45,7 @@ import Footer from '../components/Footer.js'
             </Card>
           </div>
           </Col>
+          
           <Col sm={12} md={12} lg={6}>
           <div className="position">
             <Card className="cardDesign">

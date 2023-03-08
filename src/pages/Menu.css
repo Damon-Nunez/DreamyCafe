@@ -452,3 +452,25 @@
     padding-right: 70px;
     padding-bottom: 80px;
 }
+@media(max-width:990px){
+    .position{
+        display: flex;
+        justify-content: start;
+    }
+    .secondRowPosition{
+        display: flex;
+        justify-content: start;
+    }
+    .secondRowPositionTwo{
+        display: flex;
+        justify-content: start;
+        padding-right: 30px;
+        padding-left: 0px;
+    }
+    .thirdRowPosition{
+        display: contents;
+    }
+    .thirdRowPositionTwo{
+        display: contents;
+    }
+}
