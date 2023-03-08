@@ -1,41 +1,29 @@
-import { useRef } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
-import "./Navbar.css";
+import React from 'react';
+import styled from 'styled-components';
+import Burger from './Burger';
 import logo from '../images/logo.png'
+import './Navbar.css'
+const Nav = styled.nav`
+  width: 100%;
+  height: 55px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
 
-function Navbar() {
-	const navRef = useRef();
+  .logo {
+    padding: 15px 0;
+  }
+`
 
-	const showNavbar = () => {
-		navRef.current.classList.toggle(
-			"responsive_nav"
-		);
-	};
-
-	return (
-    <div className="navDiv">
-        
-		<header className="navbarHeader">
-			<a href="/"><img className="logo" src={logo}/></a>
-			<nav ref={navRef}>
-				<a href="/">Home</a>
-				<a href="/menu">Menu</a>
-				<a href="/aboutus">About Us</a>
-				<a href="/books">Books </a>
-				<button
-					className="nav-btn nav-close-btn"
-					onClick={showNavbar}>
-					<FaTimes />
-				</button>
-			</nav>
-			<button
-				className="nav-btn"
-				onClick={showNavbar}>
-				<FaBars />
-			</button>
-		</header>
-        </div>
-	);
+const Navbar = () => {
+  return (
+    <Nav>
+      <div className="logo">
+        <img src={logo}/>
+      </div>
+      <Burger />
+    </Nav>
+  )
 }
 
-export default Navbar;
+export default Navbar
