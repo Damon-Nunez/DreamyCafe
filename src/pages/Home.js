@@ -23,7 +23,7 @@ import Footer from "../components/Footer";
       <div id="stars2"></div>
       <div id="stars3"></div>
       <div id="title">
-      <span> ⊹˚₊⊹˚ʚ Welcome to Dreamy Cafe! ⊹˚₊⊹˚ʚ</span>
+      <span className='mobileClassic'> ⊹˚₊⊹˚ʚ Welcome to Dreamy Cafe! ⊹˚₊⊹˚ʚ</span>
       <span> The Best Cafe To Relax In!</span>
       </div>
       <Container className="containerOne">
